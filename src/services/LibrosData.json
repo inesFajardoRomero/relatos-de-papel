@@ -1,0 +1,284 @@
+[
+  {
+    "title": "El nombre del viento",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/aa/cc/aacc1e2d359a74f3efb144b8ab8f790f.jpg",
+    "category": "Fantasía",
+    "rating": 4.3,
+    "reviews": 4,
+    "currentPrice": 21.6,
+    "oldPrice": 24,
+    "badges": [
+      { "text": "Sale", "color": "danger" },
+      { "text": "10%", "color": "success" }
+    ]
+  },
+  {
+    "title": "Harry Potter y la piedra filosofal",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/ff/ee/ffeea2b0fcf40c307ea2bc4aa55d1556.jpg",
+    "category": "Fantasía",
+    "rating": 4.8,
+    "reviews": 20,
+    "currentPrice": 15.9,
+    "oldPrice": 18
+  },
+  {
+    "title": "El arte de la guerra",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/cc/bb/ccbbee2c84f474e9f9c8c4d3cc2f7f30.jpg",
+    "category": "Historia",
+    "rating": 4.5,
+    "reviews": 15,
+    "currentPrice": 9.99,
+    "oldPrice": 12,
+    "badges": [
+      { "text": "Popular", "color": "info" }
+    ]
+  },
+  {
+    "title": "Cien años de soledad",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/77/66/7766fceac7bfb7bd6aa6f3d59df0c77f.jpg",
+    "category": "Clásicos",
+    "rating": 4.7,
+    "reviews": 10,
+    "currentPrice": 19.99,
+    "oldPrice": null
+  },
+  {
+    "title": "Los juegos del hambre",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/66/55/6655af96fd118e54cb8348db23ee665f.jpg",
+    "category": "Distopía",
+    "rating": 4.6,
+    "reviews": 30,
+    "currentPrice": 18,
+    "oldPrice": 22
+  },
+  {
+    "title": "Dune",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/88/77/8877bb990aad4678af22e8eae3f577a7.jpg",
+    "category": "Ciencia ficción",
+    "rating": 4.8,
+    "reviews": 25,
+    "currentPrice": 25,
+    "oldPrice": 28,
+    "badges": [
+      { "text": "Best Seller", "color": "primary" }
+    ]
+  },
+  {
+    "title": "Orgullo y prejuicio",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/22/11/2211ddffc1c27317f9d1f2e456dce211.jpg",
+    "category": "Romance",
+    "rating": 4.2,
+    "reviews": 5,
+    "currentPrice": 12.99,
+    "oldPrice": 15
+  },
+  {
+    "title": "El principito",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/aa/bb/aabb0d9348c256aff1b00a80ff4a330b.jpg",
+    "category": "Ficción",
+    "rating": 4.9,
+    "reviews": 50,
+    "currentPrice": 9.99,
+    "oldPrice": 10
+  },
+  {
+    "title": "Sapiens: De animales a dioses",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/99/88/9988e1e33243254122f11543314a113b.jpg",
+    "category": "Historia",
+    "rating": 4.7,
+    "reviews": 35,
+    "currentPrice": 30,
+    "oldPrice": 35,
+    "badges": [
+      { "text": "Recomendado", "color": "warning" }
+    ]
+  },
+  {
+    "title": "El código Da Vinci",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/dd/cc/ddcc9c2f457eb93c7c8b6c51bd245b5f.jpg",
+    "category": "Thriller",
+    "rating": 4.4,
+    "reviews": 12,
+    "currentPrice": 22,
+    "oldPrice": null
+  },
+  {
+    "title": "It (Eso)",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/cc/dd/ccddee34563a07b23c7b9a62b34532c1.jpg",
+    "category": "Terror",
+    "rating": 4.3,
+    "reviews": 8,
+    "currentPrice": 20,
+    "oldPrice": 23,
+    "badges": [
+      { "text": "Descuento", "color": "success" }
+    ]
+  },
+  {
+    "title": "1984",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/11/22/1122ccdf1a89191bd337fc78bdaef633.jpg",
+    "category": "Distopía",
+    "rating": 4.9,
+    "reviews": 42,
+    "currentPrice": 18.5,
+    "oldPrice": 20
+  },
+  {
+    "title": "La sombra del viento",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/bb/cc/bbcc1f7dbd4e24513e0b760a7cfc47af.jpg",
+    "category": "Misterio",
+    "rating": 4.7,
+    "reviews": 15,
+    "currentPrice": 19.99,
+    "oldPrice": 22,
+    "badges": []
+  },
+  {
+    "title": "Crónica de una muerte anunciada",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/dd/ee/ddee12a8c2f9428aa17a05e124da59a1.jpg",
+    "category": "Clásicos",
+    "rating": 4.5,
+    "reviews": 20,
+    "currentPrice": 14.99,
+    "oldPrice": null,
+    "badges": []
+  },
+  {
+    "title": "Las aventuras de Sherlock Holmes",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/aa/bb/aabbccdd9081727cd458eca26a91bcab.jpg",
+    "category": "Misterio",
+    "rating": 4.8,
+    "reviews": 30,
+    "currentPrice": 17.5,
+    "oldPrice": 20,
+    "badges": [
+      { "text": "Best Seller", "color": "primary" }
+    ]
+  },
+  {
+    "title": "Un mundo feliz",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/99/00/9900abdc4e76a91403eae2141b304b23.jpg",
+    "category": "Distopía",
+    "rating": 4.6,
+    "reviews": 18,
+    "currentPrice": 16,
+    "oldPrice": null,
+    "badges": []
+  },
+  {
+    "title": "El alquimista",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/ff/aa/ffaa05f6c72b47bd8f48954fdfbde302.jpg",
+    "category": "Ficción",
+    "rating": 4.3,
+    "reviews": 25,
+    "currentPrice": 12.99,
+    "oldPrice": 15,
+    "badges": [
+      { "text": "Recomendado", "color": "warning" }
+    ]
+  },
+  {
+    "title": "Drácula",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/cc/bb/ccbba7fbd942c38217fa9186fc3d65cb.jpg",
+    "category": "Terror",
+    "rating": 4.4,
+    "reviews": 10,
+    "currentPrice": 18.99,
+    "oldPrice": 22,
+    "badges": []
+  },
+  {
+    "title": "El señor de los anillos: La comunidad del anillo",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/77/88/7788de245c2e8a7ad236bda7f2039ae7.jpg",
+    "category": "Fantasía",
+    "rating": 4.9,
+    "reviews": 45,
+    "currentPrice": 25.99,
+    "oldPrice": 30,
+    "badges": []
+  },
+  {
+    "title": "Frankenstein",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/dd/cc/ddcc17a732be428cb0c9d1cf35e24654.jpg",
+    "category": "Clásicos",
+    "rating": 4.5,
+    "reviews": 8,
+    "currentPrice": 10.99,
+    "oldPrice": null,
+    "badges": []
+  },
+  {
+    "title": "Juego de tronos",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/aa/99/aa9934d5f2b0428a9f54113d7a6b7f92.jpg",
+    "category": "Fantasía",
+    "rating": 4.7,
+    "reviews": 40,
+    "currentPrice": 20.5,
+    "oldPrice": 25,
+    "badges": [
+      { "text": "Sale", "color": "danger" }
+    ]
+  },
+  {
+    "title": "El viejo y el mar",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/66/77/6677aa90b1c2f9e3a9c3e3f205d36c6e.jpg",
+    "category": "Clásicos",
+    "rating": 4.1,
+    "reviews": 6,
+    "currentPrice": 9.99,
+    "oldPrice": null,
+    "badges": []
+  },
+  {
+    "title": "Matar a un ruiseñor",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/99/aa/99aabbfde2c1746d3ca7412dfb9a3721.jpg",
+    "category": "Drama",
+    "rating": 4.6,
+    "reviews": 12,
+    "currentPrice": 14.5,
+    "oldPrice": 18,
+    "badges": []
+  },
+  {
+    "title": "La guerra de los mundos",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/dd/cc/ddccbbf8d3b2e74c2385e9ac4f2634af.jpg",
+    "category": "Ciencia ficción",
+    "rating": 4.4,
+    "reviews": 22,
+    "currentPrice": 16.5,
+    "oldPrice": null,
+    "badges": []
+  },
+  {
+    "title": "El Hobbit",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/22/33/2233ccf2e7c7a23c7bff8d6b38a2a4a1.jpg",
+    "category": "Fantasía",
+    "rating": 4.8,
+    "reviews": 50,
+    "currentPrice": 18.99,
+    "oldPrice": 20,
+    "badges": []
+  },
+  {
+    "title": "Cumbres borrascosas",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/77/66/7766bbf6a9c3a87234bb45f21dabc571.jpg",
+    "category": "Romance",
+    "rating": 4.3,
+    "reviews": 9,
+    "currentPrice": 12.99,
+    "oldPrice": 15,
+    "badges": []
+  },
+  {
+    "title": "El castillo ambulante",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/11/22/1122ccff1b7d392e97c4c812345d7f12.jpg",
+    "category": "Fantasía",
+    "rating": 4.9,
+    "reviews": 30,
+    "currentPrice": 19.99,
+    "oldPrice": 22,
+    "badges": [
+      { "text": "Popular", "color": "info" }
+    ]
+  }
+]

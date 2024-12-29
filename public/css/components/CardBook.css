@@ -1,0 +1,85 @@
+.card-product {
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    position: relative; /* Asegura que los elementos absolutos estén relativos a este contenedor */
+    overflow: hidden; /* Evita que los elementos desborden el contenedor */
+}
+
+.card-product .card-product-action {
+    width: 100%!important;
+    position: absolute !important;
+    left: 50% !important;
+    bottom: 15% !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+    opacity: 0 !important; /* Inicialmente invisible */
+    visibility: hidden !important; /* Oculta el elemento */
+    transition: all .3s ease 0s !important; /* Transición suave */
+    z-index: 9 !important; /* Asegura que esté encima de otros elementos */
+}
+
+.card-product .btn-action {
+    background-color:#fff;
+    color: #21313c;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+    border-radius: .5rem;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    transition: all .3s ease 0s;
+    box-shadow: 0 2px 4px -1px rgba(145,158,171,.2),0 4px 5px 0 rgba(145,158,171,.14),0 1px 10px 0 rgba(145,158,171,.12);
+    border: none;
+}
+
+/* Mostrar los botones al pasar el mouse */
+.card-product:hover .card-product-action {
+    opacity: 1 !important; /* Totalmente visible */
+    visibility: visible !important; /* Elemento aparece */
+    bottom: 10% !important; /* Pequeño efecto de movimiento hacia arriba */
+    transform: translateX(-50%) translateY(0%) !important; /* Ajusta la posición */
+}
+.card {
+    --fc-card-spacer-y: 1rem;
+    --fc-card-spacer-x: 1rem;
+    --fc-card-title-spacer-y: 0.5rem;
+    --fc-card-title-color: ;
+    --fc-card-subtitle-color: ;
+    --fc-card-border-width: 1px;
+    --fc-card-border-color: #dfe2e1;
+    --fc-card-border-radius: 0.5rem;
+    --fc-card-box-shadow: ;
+    --fc-card-inner-border-radius: calc(0.5rem - 1px);
+    --fc-card-cap-padding-y: 0.5rem;
+    --fc-card-cap-padding-x: 1rem;
+    --fc-card-cap-bg: #fff;
+    --fc-card-cap-color: ;
+    --fc-card-height: ;
+    --fc-card-color: ;
+    --fc-card-bg: #fff;
+    --fc-card-img-overlay-padding: 1rem;
+    --fc-card-group-margin: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--fc-card-height);
+    color: #5c6c75;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #dfe2e1;
+    border-radius: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .row-cols-lg-5 > * {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}

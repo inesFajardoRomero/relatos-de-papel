@@ -1,0 +1,23 @@
+body{
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #21313c;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    letter-spacing: -.03rem;
+}
+
+@media (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 1.75rem;
+    }
+}
