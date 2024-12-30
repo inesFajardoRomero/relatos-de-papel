@@ -1,0 +1,29 @@
+{
+    "languages": [
+      {
+        "code": "es", 
+        "language":"Español", 
+        "icon":"spanish"
+      }, 
+      {
+        "code": "en",
+        "language":"Inglés",
+        "icon":"english"
+      }, 
+      {
+        "code": "de", 
+        "language":"Alemán", 
+        "icon":"deutsch"
+      }
+    ],
+    "logo": {
+      "img": "/img/logo/relatos_papel_logo.svg",
+      "title": "Relatos de Papel"
+    },
+    "userOptions": {
+      "wishlistCount": 4,
+      "cartCount": 5
+    },
+    "searchPlaceholder": "Buscar productos"
+  }
+  

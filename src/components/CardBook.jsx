@@ -35,7 +35,7 @@ export function CardBook({
                     {/* Product Image */}
                     <div>
                         <a href="#" onClick={onView}>
-                            <img src={imageUrl} alt={title} className="mb-3 img-fluid" />
+                            <img  src={imageUrl} alt={title} className="mb-3 img-fluid" />
                         </a>
                     </div>
                     {/* Actions */}
@@ -95,9 +95,11 @@ export function CardBook({
                             role="button"
                             tabIndex="0"
                             onClick={onAdd}
-                            className="btn btn-primary btn-sm"
+                            className="btn btn-primary btn-sm d-flex align-items-center justify-content-center"
                         >
-                            <img src="/img/icon/plus.svg" alt="Add" className="mb-3 img-fluid" />{" "}
+                           
+                            <img src="/img/icon/plus.svg" alt="Add" className="img-fluid" />{" "}
+                            
                             Add
                         </button>
                     </div>

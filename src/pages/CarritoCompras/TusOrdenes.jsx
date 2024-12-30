@@ -1,4 +1,5 @@
 import {Table} from "../../components/Table.jsx";
+import useRedirection from "../../hooks/useRedirection.jsx";
 
 export function TusOrdenes() {
     const columns = [
@@ -71,6 +72,7 @@ export function TusOrdenes() {
         },
     ];
 
+    useRedirection("/landing", 5000); // Redireccionamos a la vista de restaurantes en 5 segundos
     return (
        <div className="py-6 p-md-6 p-lg-10"><h2 className="mb-6">Tu Orden</h2>
             <div className="table-responsive-xxl border-0">

@@ -5,7 +5,7 @@ export function Menu() {
     return (
         <>
             <div className="w-100 w-lg-auto nav-item fontMenu">
-                <a className="nav-link" tabIndex="0" href="/">
+                <a className="nav-link" tabIndex="0" href="/landing">
                     Inicio
                 </a>
             </div>
@@ -18,7 +18,7 @@ export function Menu() {
                 <a aria-expanded="false" role="button" className="dropdown-toggle nav-link" data-bs-toggle="dropdown"
                    tabIndex="0" href="">Jovenes Lectores</a>
                 <div aria-labelledby="" data-bs-popper="static" className="dropdown-menu dropdown-menu-none fontMenu">
-                    <NavLink to="/joven-lector" data-rr-ui-dropdown-item="" className="w-100 w-lg-auto dropdown-item">Novedades</NavLink>
+                    <NavLink to="/landing/joven-lector" data-rr-ui-dropdown-item="" className="w-100 w-lg-auto dropdown-item">Novedades</NavLink>
                     <a data-rr-ui-dropdown-item="" className="w-100 w-lg-auto dropdown-item"
                        href="/homepage-2">Romance</a>
                     <a data-rr-ui-dropdown-item="" className="w-100 w-lg-auto dropdown-item"

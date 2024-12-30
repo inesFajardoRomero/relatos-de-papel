@@ -1,10 +1,58 @@
 .card-product {
-    transition: .2s;
-    -moz-transition: .2s;
-    -webkit-transition: .2s;
-    -o-transition: .2s;
-    position: relative; /* Asegura que los elementos absolutos estén relativos a este contenedor */
-    overflow: hidden; /* Evita que los elementos desborden el contenedor */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-center.position-relative {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo el contenido de forma vertical */
+}
+
+.card-product-action {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card-product-action button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-small.mb-1 {
+    margin-bottom: 0.5rem;
+}
+
+.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+.btn-primary img {
+    margin-right: 0.5rem;
 }
 
 .card-product .card-product-action {
@@ -45,36 +93,47 @@
     transform: translateX(-50%) translateY(0%) !important; /* Ajusta la posición */
 }
 .card {
-    --fc-card-spacer-y: 1rem;
-    --fc-card-spacer-x: 1rem;
-    --fc-card-title-spacer-y: 0.5rem;
-    --fc-card-title-color: ;
-    --fc-card-subtitle-color: ;
-    --fc-card-border-width: 1px;
-    --fc-card-border-color: #dfe2e1;
-    --fc-card-border-radius: 0.5rem;
-    --fc-card-box-shadow: ;
-    --fc-card-inner-border-radius: calc(0.5rem - 1px);
-    --fc-card-cap-padding-y: 0.5rem;
-    --fc-card-cap-padding-x: 1rem;
-    --fc-card-cap-bg: #fff;
-    --fc-card-cap-color: ;
-    --fc-card-height: ;
-    --fc-card-color: ;
-    --fc-card-bg: #fff;
-    --fc-card-img-overlay-padding: 1rem;
-    --fc-card-group-margin: 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
-    height: var(--fc-card-height);
     color: #5c6c75;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid #dfe2e1;
     border-radius: 0.5rem;
+}
+
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--fc-heading-color);
+}
+a img {
+    vertical-align: middle !important;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.765625rem;
+    border-radius: 0.25rem;
+}
+
+.mb-3 {
+    margin-bottom: .75rem!important;
 }
 
 @media (min-width: 992px) {
