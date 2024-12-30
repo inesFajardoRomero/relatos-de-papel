@@ -66,50 +66,7 @@ export function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 col-sm-6 col-6"><h6 className="mb-4 text-white">For Consumers</h6>
-                                <div className="flex-column nav">
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Payments</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Shipping</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Product Returns</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">FAQ</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Shop Checkout</a></div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6 col-6"><h6 className="mb-4 text-white">Become a
-                                Shopper</h6>
-                                <div className="flex-column nav">
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Shopper Opportunities</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Become a Shopper</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Earnings</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Ideas &amp; Guides</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">New Retailers</a></div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6 col-6"><h6 className="mb-4 text-white">Freshcart
-                                programs</h6>
-                                <div className="flex-column nav">
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Freshcart programs</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Gift Cards</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Promos &amp; Coupons</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Freshcart Ads</a></div>
-                                    <div className="mb-2 nav-item"><a href="#" role="button" className="nav-link"
-                                                                      tabIndex="0">Careers</a></div>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
