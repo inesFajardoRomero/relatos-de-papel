@@ -7,7 +7,7 @@ const OffCanvas = ({ offcanvasTitle, offcanvasDescription, isOpen = false, setIs
     return (
         <div>
             {/* Offcanvas */}
-            <div style={{ width: '40%' }}  className={`offcanvas offcanvas-end ${isOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div style={{ width: '35%' }}  className={`offcanvas offcanvas-end ${isOpen ? 'show' : ''}`} tabIndex="-1" data-bs-backdrop="static" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div className="border-bottom offcanvas-header">
                     <div className="text-start">
                         <h5 id="offcanvasRightLabel" className="mb-0 fs-4">

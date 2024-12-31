@@ -11,7 +11,8 @@
     "badges": [
       { "text": "Sale", "color": "danger" },
       { "text": "10%", "color": "success" }
-    ]
+    ],
+    "quantity": 0
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "rating": 4.8,
     "reviews": 20,
     "currentPrice": 15.9,
-    "oldPrice": 18
+    "oldPrice": 18,
+    "quantity": 0
   },
   {
     "id": 3,
@@ -34,7 +36,8 @@
     "oldPrice": 12,
     "badges": [
       { "text": "Popular", "color": "info" }
-    ]
+    ],
+    "quantity": 0
   },
   {
     "id": 4,
@@ -44,7 +47,8 @@
     "rating": 4.7,
     "reviews": 10,
     "currentPrice": 19.99,
-    "oldPrice": null
+    "oldPrice": null,
+    "quantity": 0
   },
   {
     "id": 5,
@@ -54,7 +58,8 @@
     "rating": 4.6,
     "reviews": 30,
     "currentPrice": 18,
-    "oldPrice": 22
+    "oldPrice": 22,
+    "quantity": 0
   },
   {
     "id": 6,
@@ -67,7 +72,8 @@
     "oldPrice": 28,
     "badges": [
       { "text": "Best Seller", "color": "primary" }
-    ]
+    ],
+    "quantity": 0
   },
   {
     "id": 7,
@@ -77,7 +83,8 @@
     "rating": 4.2,
     "reviews": 5,
     "currentPrice": 12.99,
-    "oldPrice": 15
+    "oldPrice": 15,
+    "quantity": 0
   },
   {
     "id": 8,
@@ -87,7 +94,8 @@
     "rating": 4.9,
     "reviews": 50,
     "currentPrice": 9.99,
-    "oldPrice": 10
+    "oldPrice": 10,
+    "quantity": 0
   },
   {
     "id": 9,
@@ -100,7 +108,8 @@
     "oldPrice": 35,
     "badges": [
       { "text": "Recomendado", "color": "warning" }
-    ]
+    ],
+    "quantity": 0
   },
   {
     "id": 10,
@@ -110,7 +119,8 @@
     "rating": 4.4,
     "reviews": 12,
     "currentPrice": 22,
-    "oldPrice": null
+    "oldPrice": null,
+    "quantity": 0
   },
   {
     "id": 11,
@@ -123,7 +133,8 @@
     "oldPrice": 23,
     "badges": [
       { "text": "Descuento", "color": "success" }
-    ]
+    ],
+    "quantity": 0
   },
   {
     "id": 12,
@@ -133,7 +144,8 @@
     "rating": 4.9,
     "reviews": 42,
     "currentPrice": 18.5,
-    "oldPrice": 20
+    "oldPrice": 20,
+    "quantity": 0
   },
   {
     "id": 13,
@@ -144,7 +156,8 @@
     "reviews": 15,
     "currentPrice": 19.99,
     "oldPrice": 22,
-    "badges": []
+    "badges": [],
+    "quantity": 0
   },
   {
     "id": 14,
@@ -155,7 +168,8 @@
     "reviews": 20,
     "currentPrice": 14.99,
     "oldPrice": null,
-    "badges": []
+    "badges": [],
+    "quantity": 0
   },
   {
     "id": 15,
@@ -168,7 +182,8 @@
     "oldPrice": 20,
     "badges": [
       { "text": "Best Seller", "color": "primary" }
-    ]
+    ],
+    "quantity": 0
   },
   {
     "id": 16,
@@ -179,7 +194,8 @@
     "reviews": 18,
     "currentPrice": 16,
     "oldPrice": null,
-    "badges": []
+    "badges": [],
+    "quantity": 0
   },
   {
     "id": 17,
@@ -192,7 +208,8 @@
     "oldPrice": 15,
     "badges": [
       { "text": "Recomendado", "color": "warning" }
-    ]
+    ],
+    "quantity": 0
   },
   {
     "id": 18,
@@ -203,7 +220,8 @@
     "reviews": 10,
     "currentPrice": 18.99,
     "oldPrice": 22,
-    "badges": []
+    "badges": [],
+    "quantity": 0
   },
   {
     "id": 19,
@@ -211,21 +229,111 @@
     "imageUrl": "https://images.cdn1.buscalibre.com/fit-in/360x360/c6/78/c678ab2c90ed50d7d8849e30bc92b05a.jpg",
     "category": "Fantasía",
     "rating": 4.9,
-    "reviews": 45,
-    "currentPrice": 26,
-    "oldPrice": 30,
-    "badges": [
-      { "text": "Best Seller", "color": "primary" }
-    ]
+    "reviews": 50,
+    "currentPrice": 29.99,
+    "oldPrice": 35,
+    "badges": [],
+    "quantity": 0
   },
   {
     "id": 20,
+    "title": "Frankenstein",
+    "imageUrl": "https://images.cdn2.buscalibre.com/fit-in/360x360/11/4b/114be83c3e74574d0c1565228f7fd900.jpg",
+    "category": "Clásicos",
+    "rating": 4.5,
+    "reviews": 8,
+    "currentPrice": 10.99,
+    "oldPrice": null,
+    "badges": [],
+    "quantity": 0
+  },
+  {
+    "id": 21,
+    "title": "Juego de tronos",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/1f/08/1f08016b50849d31a61bc305cef2d32f.jpg",
+    "category": "Fantasía",
+    "rating": 4.7,
+    "reviews": 40,
+    "currentPrice": 20.5,
+    "oldPrice": 25,
+    "badges": [
+      { "text": "Sale", "color": "danger" },
+      { "text": "Best Seller", "color": "primary" }
+    ],
+    "quantity": 0
+  },
+  {
+    "id": 22,
+    "title": "El viejo y el mar",
+    "imageUrl": "https://images.cdn1.buscalibre.com/fit-in/360x360/ba/b9/bab9ecaa575f05cd91926b4afa3b9c5a.jpg",
+    "category": "Clásicos",
+    "rating": 4.1,
+    "reviews": 6,
+    "currentPrice": 9.99,
+    "oldPrice": null,
+    "badges": [],
+    "quantity": 0
+  },
+  {
+    "id": 23,
     "title": "Matar a un ruiseñor",
-    "imageUrl": "https://images.cdn1.buscalibre.com/fit-in/360x360/0f/8b/0f8b7d55d0536f029cd529573dbb9a38.jpg",
+    "imageUrl": "https://images.cdn3.buscalibre.com/fit-in/360x360/c2/52/c252630912bc122be54afd1de2939bfd.jpg",
     "category": "Drama",
+    "rating": 4.6,
+    "reviews": 12,
+    "currentPrice": 14.5,
+    "oldPrice": 18,
+    "badges": [],
+    "quantity": 0
+  },
+  {
+    "id": 24,
+    "title": "La guerra de los mundos",
+    "imageUrl": "https://images.cdn1.buscalibre.com/fit-in/360x360/10/a0/10a0791ce15887ca877414b687085e4a.jpg",
+    "category": "Ciencia ficción",
+    "rating": 4.4,
+    "reviews": 22,
+    "currentPrice": 16.5,
+    "oldPrice": null,
+    "badges": [],
+    "quantity": 0
+  },
+  {
+    "id": 25,
+    "title": "El Hobbit",
+    "imageUrl": "https://images.cdn2.buscalibre.com/fit-in/360x360/40/a5/40a54aa2a241ee753cc763d4160bbebd.jpg",
+    "category": "Fantasía",
     "rating": 4.8,
     "reviews": 50,
-    "currentPrice": 21.5,
-    "oldPrice": 25
+    "currentPrice": 18.99,
+    "oldPrice": 20,
+    "badges": [],
+    "quantity": 0
+  },
+  {
+    "id": 26,
+    "title": "Cumbres borrascosas",
+    "imageUrl": "https://images.cdn1.buscalibre.com/fit-in/360x360/c8/45/c8450d6c8fd286a52a632fcc6da25669.jpg",
+    "category": "Romance",
+    "rating": 4.3,
+    "reviews": 9,
+    "currentPrice": 12.99,
+    "oldPrice": 15,
+    "badges": [],
+    "quantity": 0
+  },
+  {
+    "id": 27,
+    "title": "El castillo ambulante",
+    "imageUrl": "https://images.cdn1.buscalibre.com/fit-in/360x360/c2/5b/c25b64b177a640dc3b816e6272504791.jpg",
+    "category": "Fantasía",
+    "rating": 4.9,
+    "reviews": 30,
+    "currentPrice": 19.99,
+    "oldPrice": 22,
+    "badges": [
+      { "text": "Popular", "color": "info" }
+    ],
+    "quantity": 0
   }
 ]

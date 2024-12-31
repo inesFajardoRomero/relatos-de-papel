@@ -27,17 +27,16 @@ export function CardBook({
                                     key={index}
                                     className={`custom-badge badge bg-${badge.color}`}
                                 >
-                  {badge.text}
-                </span>
+                                    {badge.text}
+                                </span>
                             ))}
                         </div>
                     </div>
                     {/* Product Image */}
-                    <div>
-                        <a href="#" onClick={onView}>
-                            <img  src={imageUrl} alt={title} className="mb-3 img-fluid" />
-                        </a>
-                    </div>
+                    <a href="#" onClick={onView}>
+                        <img  src={imageUrl} alt={title} className="mb-3 img-fluid" />
+                    </a>
+
                     {/* Actions */}
                     <div className="card-product-action d-flex gap-1 justify-content-center">
                         <button className="btn-action" onClick={onView}>

@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { useCart } from "../hooks/useCart";
 import { useWishlist } from "../hooks/useWishlist";
-import { ShopCart } from "../pages/ShopCart";
+import { ShopCart } from "../pages/CarritoCompras/ShopCart.jsx";
 import { useState } from "react";
 import OffCanvas from "./OffCanvas";
 
